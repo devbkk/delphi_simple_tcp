@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2019/05/14 08:45:08.994,D:\Ditto\ETax_Samples\Indy2\IndyClientServer.groupproj=D:\Suparuksa\My Documents\Embarcadero\Studio\Projects\ProjectGroup1.groupproj</Transaction>
+  </Transactions>
+  <Default.Personality>
+    <Projects ActiveProject="D:\Ditto\ETax_Samples\Indy2\IndyTcpServer.dproj"/>
+  </Default.Personality>
+</BorlandProject>

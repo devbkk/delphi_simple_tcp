@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{04BEE4FE-0092-459D-9FF2-AD2C63B4AEC9}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="IndyTcpServer.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="IndyTcpClient.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="IndyTcpServer">
+        <MSBuild Projects="IndyTcpServer.dproj"/>
+    </Target>
+    <Target Name="IndyTcpServer:Clean">
+        <MSBuild Projects="IndyTcpServer.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="IndyTcpServer:Make">
+        <MSBuild Projects="IndyTcpServer.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="IndyTcpClient">
+        <MSBuild Projects="IndyTcpClient.dproj"/>
+    </Target>
+    <Target Name="IndyTcpClient:Clean">
+        <MSBuild Projects="IndyTcpClient.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="IndyTcpClient:Make">
+        <MSBuild Projects="IndyTcpClient.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="IndyTcpServer;IndyTcpClient"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="IndyTcpServer:Clean;IndyTcpClient:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="IndyTcpServer:Make;IndyTcpClient:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

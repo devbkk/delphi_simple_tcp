@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/08/24 11:14:44.000.391,=D:\Suparuksa\My Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/08/24 14:22:39.000.407,=D:\Suparuksa\My Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/08/24 14:24:04.000.023,=D:\Suparuksa\My Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/01/10 08:14:34.000.897,=D:\Suparuksa\My Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/01/30 10:32:41.000.424,=D:\Suparuksa\My Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/03/02 15:11:12.000.876,=D:\Suparuksa\My Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/06/03 08:34:44.000.115,=D:\Suparuksa\My Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/07/20 08:44:20.000.500,=D:\Suparuksa\My Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/07/22 08:22:19.000.166,=D:\Suparuksa\My Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/29 13:22:41.000.433,=D:\Suparuksa\My Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/03/18 15:55:26.000.220,=D:\Suparuksa\My Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/05/13 19:44:19.000.584,=D:\Suparuksa\My Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/05/13 19:45:21.000.114,D:\Suparuksa\My Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\Ditto\ETax_Samples\Indy2\FrServer.pas</Transaction>
+    <Transaction>2019/05/13 19:45:21.000.114,D:\Suparuksa\My Documents\Embarcadero\Studio\Projects\Unit1.dfm=D:\Ditto\ETax_Samples\Indy2\FrServer.dfm</Transaction>
+    <Transaction>2019/05/13 19:45:31.000.026,D:\Suparuksa\My Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\Ditto\ETax_Samples\Indy2\IndyServer.dproj</Transaction>
+    <Transaction>2019/05/14 08:46:39.506,D:\Ditto\ETax_Samples\Indy2\IndyTcpServer.dproj=D:\Ditto\ETax_Samples\Indy2\IndyServer.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>
